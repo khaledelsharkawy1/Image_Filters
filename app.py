@@ -1,7 +1,7 @@
 import numpy as np
 from PIL import Image
 import matplotlib.pyplot as plt
-from tkinter import filedialog
+#from tkinter import filedialog
 
 def apply_filter(image, kernel):
     image_array = np.array(image)
